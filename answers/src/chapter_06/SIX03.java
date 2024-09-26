@@ -20,7 +20,7 @@ public class SIX03 {
                 "palindrome"));
     }
     public static int reverse(int number) {
-        String numberString = number + "";
+        String numberString = Integer.toString(number);
         String reversed = "";
         for (int i = numberString.length()-1; i >= 0; i--) {
             reversed += numberString.charAt(i);
